@@ -1,0 +1,80 @@
+<html> 
+  <head>
+    <title> Melee Storefront </title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+  <form onsubmit="return formValidate()" action="customerBackEnd.php" method="post">
+  <div class="center">
+    <br>
+    <h1>Melee Storefront</h1>
+    <center>
+      <img class="smash banner"
+        src="https://media.discordapp.net/attachments/750482796262457408/1039320162656059474/unknown.png?width=1440&height=273"
+        width="720" height="137">
+    </center>
+    <br>
+    <div class="container">
+      <div class="img">
+        <img class="item"
+          src="https://media.discordapp.net/attachments/750482796262457408/1041168758129053767/Falcion.png?width=539&height=539"
+          width="200" height="200">
+      </div>
+      <div class="txt">
+        <h2> Falchion </h2>
+        <p>
+          $100 <br>
+          Quantity <input name="marthqt" id="marthqt" value="0"> <br>
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="img">
+      <img class="item"
+        src="https://media.discordapp.net/attachments/750482796262457408/1041168758431027251/Fox_Combo.png"
+        width="200" height="200">
+      </div>
+      <div class="txt">
+        <h2> Blaster and Reflector </h2>
+        <p>
+          $300 <br>
+          Quantity <input name="foxqt" id="foxqt" value="0"> <br>
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="img">
+      <img class="item"
+        src="https://media.discordapp.net/attachments/750482796262457408/1041168758783348786/Turnip.png"
+        width="200" height="200">
+      </div>
+      <div class="txt">
+        <h2> Turnip </h2>
+        <p>
+          $3 <br>
+          Quantity <input name="turnipqt" id="turnipqt" value="0"> <br>
+        </p>
+      </div>
+    </div>
+    <div class="txt">
+      <p>
+        <br>
+        Shipping: <br>
+        <input type="radio" name="ship" value="0"> Free 7 day  <br>
+        <input type="radio" name="ship" value="50"> $50.00 overnight  <br>
+        <input type="radio" name="ship" value="5"> $5.00 three day  <br>
+        <br>
+        Username: <input type="username" name="username" id="username"> <br>
+        Password: <input type="password" name="pwd" id="pwd"><br>
+        <br>
+        <input type="reset" value="Reset"> <br>
+        <input type="submit" value="Submit"> <br>
+        <br>
+      </p>
+    </div>
+    <br>
+  </div>
+  </form>
+    <script type="text/javascript" src="formChecker.js"></script>
+  </body>
+</html>

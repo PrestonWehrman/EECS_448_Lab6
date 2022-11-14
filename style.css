@@ -1,0 +1,46 @@
+html{
+  background-image:url(https://media.discordapp.net/attachments/750482796262457408/1039366149109993552/unknown.png?width=1056&height=594);
+  background-size: cover;
+  color: lavender;
+  text-emphasis-color: lavender;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+img {  
+  max-width: 100%
+}
+h1 {
+  background-color: rgb(10, 10, 10);
+  font-size: 30pt;
+  text-align: center;
+}
+h2 {
+  margin-left: 40px;
+}
+p {
+  margin-left: 40px;
+}
+div.center {
+  width: 800px;
+  background-color: black;
+  background-size: 100%; 
+}
+div.container {
+  display: flex;
+  background-color: white;
+  margin-left: 40px;
+  margin-right: 40px;
+
+}
+div.img {
+  margin-left: 40px;
+  align-items: left;
+}
+div.txt {
+  color: black;
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: white;
+}
